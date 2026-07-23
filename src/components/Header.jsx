@@ -33,7 +33,7 @@ const Header = () => {
         </div>
 
         <nav
-          className={`absolute top-full left-0 w-full bg-zinc-900 shadow-md transition-all duration-300 ease-in-out ${
+          className={`absolute top-full left-0 w-full h-full bg-zinc-900 shadow-md transition-all duration-300 ease-in-out ${
             isOpen
               ? "opacity-100 translate-y-0"
               : "opacity-0 -translate-y-3 pointer-events-none"
