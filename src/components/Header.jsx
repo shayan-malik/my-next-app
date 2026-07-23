@@ -56,10 +56,10 @@ const Header = () => {
 
   return (
     <>
-      <header className={`sticky top-0 z-50 flex justify-between p-5 items-center transition-all duration-300 ${
+      <header className={`sticky top-0 z-50 flex justify-between h-16 px-8 items-center transition-all duration-300 ${
         isScrolled
-        ? "bg-white/80 backdrop-blur-md shadow-lg border-gray-200"
-        : "bg-transparent"
+        ? "bg-white/95 backdrop-blur-md shadow-lg"
+        : "bg-black"
       }`}>
         <div>
           <h1 className={`font-bold text-xl transition-colors duration-300 ${
